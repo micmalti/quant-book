@@ -19,5 +19,5 @@ bibliography: references.bib
 format:
   html:
     theme: simplex   # spacelab flatly united zephyr cosmo
-  pdf:
-    documentclass: scrreprt
+  # pdf:
+  #   documentclass: scrreprt
