@@ -1,5 +1,9 @@
 project:
   type: book
+  output-dir: _book
+  preview:
+    port: 4200
+    browser: false
 
 book:
   title: "A Hitchhiker's Guide to Quantitative Finance"
@@ -14,9 +18,6 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: simplex   # spacelab flatly united zephyr cosmo
   pdf:
     documentclass: scrreprt
-
-execute:
-  freeze: auto   # run executable code locally, storing output in _freeze
