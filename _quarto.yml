@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "A Hitchhiker's Guide to Quantitative Finance"
+  author: "Michael Gauci"
+  date: "10/12/2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+execute:
+  freeze: auto   # run executable code locally, storing output in _freeze
