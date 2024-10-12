@@ -13,6 +13,11 @@ book:
     - index.qmd
     - intro.qmd
     - references.qmd
+  # favicon: favicon.svg
+
+include-in-header:
+  - text: |
+      <link rel = "shortcut icon" href = "favicon.svg" />
 
 bibliography: references.bib
 
