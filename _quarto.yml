@@ -4,16 +4,45 @@ project:
   preview:
     port: 4200
     browser: false
+  resources:
+    - CNAME
 
 book:
   title: "A Hitchhiker's Guide to Quantitative Finance"
   author: "Michael Gauci"
   date: "10/12/2024"
+  # issue-url: https://github.com/micmalti/quant-book/issues/new
+  repo-url: https://github.com/micmalti/quant-book/
+  repo-branch: master
+  repo-actions: [edit]
   chapters:
     - index.qmd
     - intro.qmd
     - references.qmd
   # favicon: favicon.svg
+
+# margin-header: |
+  # ![](cover.png)
+
+website:
+  site-url: "https://book.michaelgauci.com/"
+  announcement: 
+    icon: info-circle
+    dismissable: false
+    content: "**Alert** - This is a draft version. Some sections may be incomplete, and content may undergo changes in the final version."
+    type: primary
+    position: above-navbar
+  page-footer: 
+    left: "Licensed under [CC-By-4.0](https://creativecommons.org/licenses/by/4.0/) by Michael Gauci." 
+    right:
+      - icon: twitter-x
+        href: https://twitter.com/MichaelGauciMT
+        target: _blank
+  # comments: 
+  #   hypothesis:
+  #     theme: clean
+  #     openSidebar: false
+  # bread-crumbs: true
 
 include-in-header:
   - text: |
@@ -24,5 +53,6 @@ bibliography: references.bib
 format:
   html:
     theme: simplex   # spacelab flatly united zephyr cosmo
+    toc-title: "On this page"
   # pdf:
   #   documentclass: scrreprt
