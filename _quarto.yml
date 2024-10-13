@@ -6,6 +6,7 @@ project:
     browser: false
   resources:
     - CNAME
+  render: [html]
 
 book:
   title: "A Hitchhiker's Guide to Quantitative Finance"
@@ -20,6 +21,7 @@ book:
     - intro.qmd
     - references.qmd
   # favicon: favicon.svg
+  # downloads: [pdf]
 
 # margin-header: |
   # ![](cover.png)
@@ -38,10 +40,6 @@ website:
       - icon: twitter-x
         href: https://twitter.com/MichaelGauciMT
         target: _blank
-  # comments: 
-  #   hypothesis:
-  #     theme: clean
-  #     openSidebar: false
   # bread-crumbs: true
 
 include-in-header:
@@ -54,5 +52,9 @@ format:
   html:
     theme: simplex   # spacelab flatly united zephyr cosmo
     toc-title: "On this page"
-  # pdf:
-  #   documentclass: scrreprt
+    # comments:
+    #   hypothesis:
+    #     theme: clean
+    #     openSidebar: false
+  pdf:
+    documentclass: scrreprt

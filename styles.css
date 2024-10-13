@@ -1,4 +1,11 @@
 h1 {
     display: none;
   }
-  
+
+.toc-action {
+    display: none;
+}
+
+#quarto-announcement {
+    display: none;
+}
