@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _book
+  output-dir: _site
   preview:
     port: 4200
     browser: false
@@ -11,7 +11,7 @@ project:
 book:
   title: "A Hitchhiker's Guide to Quantitative Finance"
   author: "Michael Gauci"
-  date: "10/12/2024"
+  date: "2/02/2026"
   # issue-url: https://github.com/micmalti/quant-book/issues/new
   repo-url: https://github.com/micmalti/quant-book/
   repo-branch: master
@@ -41,15 +41,14 @@ website:
         target: _blank
   # bread-crumbs: true
 
-include-in-header:
-  - text: |
-      <link rel = "shortcut icon" href = "favicon.svg" />
-
 bibliography: references.bib
 csl: journal-of-finance.csl
 
 format:
   html:
+    include-in-header:
+      - text: |
+          <link rel = "shortcut icon" href = "favicon.svg" />
     theme:
       - simplex   # spacelab flatly united zephyr cosmo
       - styles.scss

@@ -1,4 +1,3 @@
-/_book/
+/_site/
 /.quarto/
 *.quarto_ipynb
-test.qmd
