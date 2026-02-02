@@ -18,7 +18,6 @@ book:
   repo-actions: [edit]
   chapters:
     - index.qmd
-    - intro.qmd
     - references.qmd
   # favicon: favicon.svg
   # downloads: [pdf]
@@ -28,14 +27,14 @@ book:
 
 website:
   site-url: "https://book.michaelgauci.com/"
-  announcement: 
+  announcement:
     icon: info-circle
     dismissable: false
     content: "**Alert** - This is a draft version. Some sections may be incomplete, and content may undergo changes in the final version."
     type: primary
     position: above-navbar
-  page-footer: 
-    left: "Licensed under [CC-By-4.0](https://creativecommons.org/licenses/by/4.0/) by Michael Gauci." 
+  page-footer:
+    left: "Licensed under [CC-By-4.0](https://creativecommons.org/licenses/by/4.0/) by Michael Gauci."
     right:
       - icon: twitter-x
         href: https://twitter.com/MichaelGauciMT
@@ -47,10 +46,14 @@ include-in-header:
       <link rel = "shortcut icon" href = "favicon.svg" />
 
 bibliography: references.bib
+csl: journal-of-finance.csl
 
 format:
   html:
-    theme: simplex   # spacelab flatly united zephyr cosmo
+    theme:
+      - simplex   # spacelab flatly united zephyr cosmo
+      - styles.scss
+
     toc-title: "On this page"
     # comments:
     #   hypothesis:

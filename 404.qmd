@@ -10,8 +10,8 @@ format:
  404
  </div>
  <div style="text-align: center;">
- <span style="display: block;">The requested page cannot be found.</span>
- <span style="display: block;">You may have mistyped the address or the page may have moved.</span>
+ <span style="display: block;">The requested page can't be found.</span>
+ <span style="display: block;">The page may have been moved or no longer exists.</span>
  </div>
 </div>
 

@@ -1,2 +1,4 @@
-*.odt
+/_book/
 /.quarto/
+*.quarto_ipynb
+test.qmd
